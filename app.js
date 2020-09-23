@@ -32,12 +32,39 @@
 // }
 
 //////////////////////////else if
-let rating = 3;
+// let rating = 3;
 
-if (rating === 3) {
-  console.log("You are a superstar!");
-} else if (rating === 2) {
-  console.log("Meets expectations");
-} else if (rating === 1) {
-  console.log("needs improvement");
-}
+// if (rating === 3) {
+//   console.log("You are a superstar!");
+// } else if (rating === 2) {
+//   console.log("Meets expectations");
+// } else if (rating === 1) {
+//   console.log("needs improvement");
+// }
+
+//////////////////////////else - like an otherwise conditional
+// let rating = "4";
+
+// if (rating === 3) {
+//   console.log("You are a superstar!");
+// } else if (rating === 2) {
+//   console.log("Meets expectations");
+// } else if (rating === 1) {
+//   console.log("needs improvement");
+// } else {
+//   console.log("inavlid rating");
+// }
+
+// let highScore = 1430;
+// let userScore = 1200;
+
+// if (userScore >= highScore) {
+//   console.log(`Congrats! You have the high score of ${userScore}`);
+//   highScore = userScore;
+// } else {
+//   console.log(
+//     `Good game! Your score of ${userScore} did not beat the high score of ${highScore}`
+//   );
+// }
+
+//////////////////////////nesting conditionals
