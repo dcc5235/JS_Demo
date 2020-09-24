@@ -16,7 +16,7 @@
 //   console.log("please log in!");
 // }
 
-//////////////////////////logical operators
+//////////////////////////logical operator &&
 // let password = "chickenGal";
 
 // if (password.length >= 8 && password.indexOf(" ") === -1) {
@@ -25,10 +25,19 @@
 //   console.log(`invalid password`);
 // }
 
-let num = 34;
+// let num = 34;
 
-if (num >= 1 && num <= 10) {
-  console.log(`number is between 1 and 10`);
+// if (num >= 1 && num <= 10) {
+//   console.log(`number is between 1 and 10`);
+// } else {
+//   console.log(`please guess a number between 1 and 10`);
+// }
+
+//////////////////////////logical operator ||
+let age = 36;
+
+if (age < 6 || age >= 65) {
+  console.log(`free for you`);
 } else {
-  console.log(`please guess a number between 1 and 10`);
+  console.log(`you pay now`);
 }
