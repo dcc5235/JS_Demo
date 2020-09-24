@@ -26,8 +26,15 @@ topSongs.push("Fortunate Son");
 
 topSongs.pop();
 
-//////////////////////////
+//////////////////////////array methods: shift and unshift
+let dishesToDo = ["big platter"];
+dishesToDo.unshift("large plate");
+2;
+dishesToDo.unshift("small plate");
+3;
 
+dishesToDo.shift("large plate");
+("small plate");
 //////////////////////////
 
 //////////////////////////
