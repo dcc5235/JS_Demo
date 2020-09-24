@@ -35,8 +35,13 @@ dishesToDo.unshift("small plate");
 
 dishesToDo.shift("large plate");
 ("small plate");
-//////////////////////////
 
+//////////////////////////concat
+let fruits = ["apple", "banana"];
+let veggies = ["asparagus", "brussel sprouts"];
+
+console.log(fruits.concat(veggies));
+console.log(veggies.concat(fruits));
 //////////////////////////
 
 //////////////////////////
