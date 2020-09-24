@@ -15,7 +15,16 @@ shoppingCart[2] = "Ice Cream";
 
 shoppingCart[shoppingCart.length] = "Tomatoes";
 
-//////////////////////////
+//////////////////////////array methods: push and pop
+let topSongs = [
+  "First Time Ever I Saw Your Face",
+  "God Only Knows",
+  "Life on Mars",
+];
+
+topSongs.push("Fortunate Son");
+
+topSongs.pop();
 
 //////////////////////////
 
