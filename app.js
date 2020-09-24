@@ -34,10 +34,51 @@
 // }
 
 //////////////////////////logical operator ||
-let age = 36;
+// let age = 36;
 
-if (age < 6 || age >= 65) {
-  console.log(`free for you`);
+// if (age < 6 || age >= 65) {
+//   console.log(`free for you`);
+// } else {
+//   console.log(`you pay now`);
+// }
+
+//////////////////////////logical operator !
+// let loggedInUser;
+
+// if (!loggedInUser) {
+//   console.log(`get out of my site!`);
+// }
+
+// let flavor = "watermelon";
+
+// if (!(flavor === `grape` || flavor === `cherry`)) {
+//   console.log(`no flavored ice for you!`);
+// }
+
+//////////////////////////switch statement
+// let day = 4;
+
+// switch (day) {
+//   case 1:
+//     console.log(`monday`);
+//     break;
+//   case 2:
+//     console.log(`tuesday`);
+//     break;
+//   case 3:
+//     console.log(`wednesday`);
+//     break;
+//   default:
+//     console.log(`invalid day`);
+// }
+
+//////////////////////////ternary operator
+let num = 7;
+
+if (num === 7) {
+  console.log(`lucky`);
 } else {
-  console.log(`you pay now`);
+  console.log(`bad`);
 }
+
+num === 7 ? console.log(`lucky`) : console.log(`bad`);
