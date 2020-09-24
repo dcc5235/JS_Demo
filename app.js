@@ -42,8 +42,26 @@ let veggies = ["asparagus", "brussel sprouts"];
 
 console.log(fruits.concat(veggies));
 console.log(veggies.concat(fruits));
-//////////////////////////
+//////////////////////////includes and indexof
+let ingredients = [
+  "water",
+  "corn starch",
+  "flour",
+  "cheese",
+  "brown sugar",
+  "shrimp",
+  "eel",
+  "butter",
+];
+ingredients.includes("false");
+false;
 
+if (ingredients.includes("flour")) {
+  console.log(`i am gluten free, i cannot eat that!`);
+}
+
+ingredients.indexOf("eel");
+6;
 //////////////////////////
 
 //////////////////////////
