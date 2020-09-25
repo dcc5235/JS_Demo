@@ -62,8 +62,17 @@ if (ingredients.includes("flour")) {
 
 ingredients.indexOf("eel");
 6;
-//////////////////////////
+//////////////////////////join and reverse
+let letters = ["T", "C", "E", "P", "S", "E", "R"];
+letters.reverse()(7)[("R", "E", "S", "P", "E", "C", "T")];
 
+letters(7)[("R", "E", "S", "P", "E", "C", "T")];
+
+letters.join();
+("R,E,S,P,E,C,T");
+
+letters.reverse().join("-");
+("R-E-S-P-E-C-T");
 //////////////////////////
 
 //////////////////////////
