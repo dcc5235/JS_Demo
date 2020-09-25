@@ -1,84 +1,71 @@
-//////////////////////////truthy and falsy
-// false, 0, empty string, null, undefined, NaN
-// let mystery = 5;
+//////////////////////////arrays
+let shoppingList = ["cereal", "cheese", "ice"];
 
-// if (mystery) {
-//   console.log("truthy");
-// } else {
-//   console.log("falsy");
-// }
+let myCollection = [12, "dog", true, null, NaN];
 
-// let loggedInUser = "thomas128";
+//////////////////////////array indices
+let colors = ["red", "orange", "yellow", "green"];
 
-// if (loggedInUser) {
-//   console.log("you are logged in");
-// } else {
-//   console.log("please log in!");
-// }
+//////////////////////////modifying arrays
 
-//////////////////////////logical operator &&
-// let password = "chickenGal";
+let shoppingCart = ["Cheddar Cheese", "2% Milk"];
 
-// if (password.length >= 8 && password.indexOf(" ") === -1) {
-//   console.log(`valid password`);
-// } else {
-//   console.log(`invalid password`);
-// }
+shoppingCart[1] = "Whole Milk";
+shoppingCart[2] = "Ice Cream";
 
-// let num = 34;
+shoppingCart[shoppingCart.length] = "Tomatoes";
 
-// if (num >= 1 && num <= 10) {
-//   console.log(`number is between 1 and 10`);
-// } else {
-//   console.log(`please guess a number between 1 and 10`);
-// }
+//////////////////////////array methods: push and pop
+let topSongs = [
+  "First Time Ever I Saw Your Face",
+  "God Only Knows",
+  "Life on Mars",
+];
 
-//////////////////////////logical operator ||
-// let age = 36;
+topSongs.push("Fortunate Son");
 
-// if (age < 6 || age >= 65) {
-//   console.log(`free for you`);
-// } else {
-//   console.log(`you pay now`);
-// }
+topSongs.pop();
 
-//////////////////////////logical operator !
-// let loggedInUser;
+//////////////////////////array methods: shift and unshift
+let dishesToDo = ["big platter"];
+dishesToDo.unshift("large plate");
+2;
+dishesToDo.unshift("small plate");
+3;
 
-// if (!loggedInUser) {
-//   console.log(`get out of my site!`);
-// }
+dishesToDo.shift("large plate");
+("small plate");
 
-// let flavor = "watermelon";
+//////////////////////////concat
+let fruits = ["apple", "banana"];
+let veggies = ["asparagus", "brussel sprouts"];
 
-// if (!(flavor === `grape` || flavor === `cherry`)) {
-//   console.log(`no flavored ice for you!`);
-// }
+console.log(fruits.concat(veggies));
+console.log(veggies.concat(fruits));
+//////////////////////////includes and indexof
+let ingredients = [
+  "water",
+  "corn starch",
+  "flour",
+  "cheese",
+  "brown sugar",
+  "shrimp",
+  "eel",
+  "butter",
+];
+ingredients.includes("false");
+false;
 
-//////////////////////////switch statement
-// let day = 4;
-
-// switch (day) {
-//   case 1:
-//     console.log(`monday`);
-//     break;
-//   case 2:
-//     console.log(`tuesday`);
-//     break;
-//   case 3:
-//     console.log(`wednesday`);
-//     break;
-//   default:
-//     console.log(`invalid day`);
-// }
-
-//////////////////////////ternary operator
-let num = 7;
-
-if (num === 7) {
-  console.log(`lucky`);
-} else {
-  console.log(`bad`);
+if (ingredients.includes("flour")) {
+  console.log(`i am gluten free, i cannot eat that!`);
 }
 
-num === 7 ? console.log(`lucky`) : console.log(`bad`);
+ingredients.indexOf("eel");
+6;
+//////////////////////////
+
+//////////////////////////
+
+//////////////////////////
+
+//////////////////////////
