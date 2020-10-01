@@ -120,4 +120,121 @@ outer loop: 10
   inner loop 4
   inner loop 2
   inner loop 0
-```
+
+  ```jsx
+  // while(some condition)
+  // in the loop, update or attempt to make that condition false
+  ```
+  
+  ```jsx
+  // for loop
+  for(let i=0; i<=5; i++){
+  console.log(i)}
+  
+  // same loop written as while loop
+  // while some condition is true, run this code
+  let j=0;
+  while(j<=5){
+  console.log(j)
+  j++;}
+  
+  // Example 1
+  const target = Math.floor(Math.random() * 10);
+  let guess = Math.floor(Math.random() * 10);
+  while(guess !== target){
+  console.log(`Target: ${target} Guess: ${guess}`);
+    guess = Math.floor(Math.random() * 10);
+  }
+  console.log(`CONGRATS! YOU WIN!`);
+  
+  // Example 2 with break*
+    while(true){
+    if(target === guess) break;
+    console.log(`Target: ${target} Guess: ${guess}`);
+    guess = Math.floor(Math.random() * 10);
+  }
+    console.log(`CONGRATS! YOU WIN!`);
+
+    ```jsx
+// Syntax
+for (variable of iterable){
+  statement
+}
+
+// Example 1
+let subreddits = ['soccer', 'popheads', 'cringe', 'books'];
+for(let sub of subreddits){
+  console.log(sub);
+}
+
+// Example 2
+const magicSquare = [[2, 7, 6], [9, 5, 1], [4,3, 6]];
+
+for(let row of magicSquare){
+  let sum = 0;
+  for(let num of row){
+    sum += num;
+  }
+  console.log(`${row} summed to ${sum}`);
+}
+
+2,7,6 summed to 15
+9,5,1 summed to 15
+4,3,6 summed to 13
+
+// Example 3*
+const movieReviews = {
+  Arrival: 9.5,
+  Alien: 9,
+  Amelie: 8,
+  'In Bruges': 9,
+  Amadeus: 10,
+  'Kill Bill': 8,
+  'Little Miss Sunshine': 8.5,
+  Coraline: 7.5
+};
+
+for(let movie of Object.keys(movieReviews)){
+  console.log(movie, movieReviews[movie]);
+}
+
+Arrival 9.5
+Alien 9
+Amelie 8
+In Bruges 9
+Amadeus 10
+Kill Bill 8
+Little Miss Sunshine 8.5
+Coraline 7.5
+
+for (variable in object) {
+  statement
+}
+
+const jeoparyWinnings = {
+  regularPlay: 2522700,
+  wastonChallenge: 300000,
+  tournamentOfChampions: 500000,
+  battleOfTheDecades: 10000
+}
+
+for(let prop in jeoparyWinnings){
+  console.log(prop);
+  console.log(jeoparyWinnings[prop]);
+}
+
+let total = 0;
+for(let prop in jeoparyWinnings){
+  total += jeoparyWinnings[prop];
+}
+
+regularPlay
+2522700
+wastonChallenge
+300000
+tournamentOfChampions
+500000
+battleOfTheDecades
+10000
+// Total Winnings
+3332700
